@@ -1,0 +1,22 @@
+<!-- [Cyrillux: component for importing a record (import.hbs)] -->
+
+<div class="form-field-container">
+
+  <div class="button-wrapper">
+    <button id="recordImportButton" class="icon-on-left">
+      <span class="material-symbols-outlined">upload</span>
+      Tuo
+    </button>
+  </div>
+
+  <div class="input-wrapper">
+    <input id="recordImportInput" type="text" placeholder="Selaa tiedosto laitteeltasi" disabled="true">
+    <input id="hiddenFileInput" type="file" multiple accept=".json, .mrc" style="display:none" />
+  </div>
+
+</div>
+
+{{!--
+  <button id="clearFileSelect" type="button" class="material-symbols-outlined close-button small icon-only"
+    title="Poista valittu tiedosto" onclick="return clearSelectedFile(event)" style="display: none">close</button>
+--}}

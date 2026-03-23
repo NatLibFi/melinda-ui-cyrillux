@@ -1,0 +1,101 @@
+.toolbar {
+
+  .toolbar-dropdowns {
+
+    .toolbar-dropdown {
+ 
+      &#recordSearchDropdown {
+
+        .dropdown-action {
+
+          .form-field-container {
+
+            .input-wrapper {
+              flex-basis: auto;
+              min-width: 450px;
+            }
+
+            .button-wrapper {
+              flex-basis: auto;
+            }
+
+          }
+
+        }
+
+      }
+
+      &#recordImportDropdown {
+
+        .dropdown-action {
+          display: flex;
+          gap: 32px;
+
+          .form-field-container {
+
+            .input-wrapper {
+              flex-basis: auto;
+              min-width: 450px;
+
+              input#recordImportInput {
+                background-color: var(--color-primary-white);
+                margin-right: 16px;
+              }
+
+              &:hover {
+                outline: none;
+                border-color: var(--color-blue-100);
+              }
+            }
+
+            .button-wrapper {
+              flex-basis: auto;
+            }
+
+            &:focus-within .input-wrapper {
+              border-color: var(--color-blue-100);
+              outline-style: none;
+            }
+
+          }
+
+        }
+
+      }
+
+      &#recordConfigureDropdown {
+
+        .dropdown-action {
+
+          .standard-options {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .standard-name {
+              padding-right: 6px;
+            }
+
+          }
+
+        }
+
+      }
+
+      &#recordViewDropdown {
+
+        .dropdown-action {
+
+          .form-field-container {
+            gap: 100px;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

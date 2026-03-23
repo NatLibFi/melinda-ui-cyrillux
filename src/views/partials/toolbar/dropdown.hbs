@@ -1,0 +1,36 @@
+<!-- [Cyrillux: container for one toolbar dropdown (dropdown.hbs)] -->
+{{!-- Template uses string variables for dropdown id and header text --}}
+{{!-- Template uses a partial as variable for dropdown action --}}
+
+<div id={{dropdownId}} class="toolbar-dropdown">
+
+  <div class="dropdown-content">
+
+    <div class="dropdown-header">
+
+      <div class="dropdown-header-text">
+        {{dropdownHeaderText}}
+      </div>
+
+      <div class="dropdown-header-buttons">
+
+        <button id="recordSearchPin" class="minimal icon-on-right dropdown-pin">
+          <span class="material-symbols-outlined">keep</span>
+        </button>
+
+        <button class="minimal icon-on-right dropdown-dismiss">
+          Sulje
+          <span class="material-symbols-outlined">close</span>
+        </button>
+
+      </div>
+
+    </div>
+
+    <div class="dropdown-action">
+      {{> (lookup . "dropdownAction") }}
+    </div>
+
+  </div>
+
+</div>

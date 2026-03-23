@@ -1,0 +1,19 @@
+<!-- [Cyrillux: container for original and transliterated record preview panels  (recordPreviewPanels.hbs)] -->
+
+<div class="panels">
+
+  {{> localPartials/panels/panel
+  panelId="originalRecordPanel"
+  panelHeaderText="Alkuperäinen tietue"
+  panelTabs=(array (object tabId="previewOriginalRecord") (object tabHeaderText="") (object tabHeaderText=""))
+  panelContents=(array (object content="localPartials/record/preview"))
+  }}
+
+  {{> localPartials/panels/panel
+  panelId="transliteratedRecordPanel"
+  panelHeaderText="Translitteroitu tietue"
+  panelTabs=(array (object tabId="previewTransliteratedRecord"))
+  panelContents=(array (object content="localPartials/record/previewTransliterated"))
+  }}
+
+</div>

@@ -1,0 +1,49 @@
+<!-- [The base html for application (default.hbs)] -->
+
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title -->
+  {{!-- 'title' is a string passed in this view's local variable --}}
+  <title>{{title}}</title>
+
+  <!-- External resources (stylesheets and libraries for browser) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- replace these with material symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "/external/modules/idb": "https://cdn.jsdelivr.net/npm/idb@8/+esm",
+        "/external/modules/uuid": "https://jspm.dev/uuid",
+        "/external/modules/uuid-timestamp":  "https://jspm.dev/uuid-timestamp"
+      }
+    }
+  </script>
+
+  <!-- Shared resources (common for all applications) -->
+  <link rel="icon" href="/shared/images/favicon.ico">
+  <link rel="stylesheet" href="/shared/styles/main.css">
+  <script type="module" src="/shared/scripts/main.js"></script>
+
+  <!-- Local resources (application specific) -->
+  <link rel="stylesheet" href="/styles/cyrillux.css">
+
+  {{#if isLogin}}
+  <script type="module" src="/scripts/login.mjs"></script>
+  {{else}}
+  <script type="module" src="/scripts/cyrillux.mjs"></script>
+  {{/if}}
+</head>
+
+{{!-- 'onload' is a function passed in this view's local variable --}}
+<body onload={{onload}}>
+  {{{body}}}
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!-- [Cyrillux application body (cyrillux.hbs)] -->
+
+<div id="bodywrapper" class="viewport-full flex-column">
+
+  {{> sharedPartials/navbar }}
+
+  <div id="progressbar" class="progress-bar-inactive"></div>
+
+  <div id="root">
+
+    <div id="cyrillux" class="cyrillux-ui">
+
+      <!-- Toolbar for record searching, selecting and settings -->
+      {{> localPartials/toolbar/toolbar}}
+
+      <!-- Panel for imported and searched records listing -->
+      {{> localPartials/panels/recordListPanel}}
+
+      <!-- Panels for record previewing, editing and saving -->
+      {{> localPartials/panels/recordPreviewPanels}}
+
+    </div>
+
+    <!-- For displaying info messages and errors to user -->
+    {{> sharedPartials/snackbars }}
+
+  </div>
+
+  {{> sharedPartials/footer }}
+
+</div>

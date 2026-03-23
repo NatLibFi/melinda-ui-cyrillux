@@ -1,0 +1,6 @@
+{
+  "description": "05: punc problem 700, MELINDA-11244 and others",
+  "comment": "20251230: Note 008/35-37 => 041$a derivation (by new validator)",
+  "only": false,
+  "fix": true
+}

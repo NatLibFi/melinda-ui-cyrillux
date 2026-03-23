@@ -1,0 +1,11 @@
+{
+  "description": "06: transliterate; convert to SFS-4900 using rules for Russian. However, apply only to 1XX, and skip 084",
+  "comment": "New field 041 is based on 008/35-37",
+  "only": false,
+  "fix": true,
+  "config": {
+    "doISO9Transliteration": true,
+    "doSFS4900Transliteration": true,
+    "tagPattern": "^1.."
+  }
+}

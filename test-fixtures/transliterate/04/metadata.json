@@ -1,0 +1,8 @@
+{
+  "description": "100_and_880: remove crappy punctuation and add proper one",
+  "comment": "Field 880 uses rules for 100 as it has $6 100-XX.",
+  "comment #2": "Added MELINDA-11244(-ish) test",
+  "skip": true,
+  "fix": true,
+  "only": false
+}

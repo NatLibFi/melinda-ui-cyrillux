@@ -1,0 +1,13 @@
+/* Changes and additions for melinda-ui-commons shared styles */
+
+/* Let the #root fill the empty space in app */
+.navbar,
+.footer {
+  flex-grow: 0;
+}
+
+/* Keep until color theme is designed */
+button {
+  background-color: var(--color-primary-blue);
+  border-color: var(--color-primary-blue);
+}

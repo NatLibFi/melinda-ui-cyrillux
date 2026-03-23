@@ -1,0 +1,13 @@
+<!-- [Cyrillux: container for toolbar dropdowns (dropdowns.hbs)] -->
+
+<div class="toolbar-dropdowns">
+
+  {{> localPartials/toolbar/dropdown dropdownId="recordSearchDropdown" dropdownHeaderText="Hae alkuperäinen tietue tietokannasta" dropdownAction="localPartials/record/search" }}
+
+  {{> localPartials/toolbar/dropdown dropdownId="recordImportDropdown" dropdownHeaderText="Tuo alkuperäinen tietue tiedostosta" dropdownAction="localPartials/record/import" }}
+
+  {{> localPartials/toolbar/dropdown dropdownId="recordConfigureDropdown" dropdownHeaderText="Valitse tietueen translitteroinnissa käytettävät standardit" dropdownAction="localPartials/record/configure" }}
+
+  {{> localPartials/toolbar/dropdown dropdownId="recordViewDropdown" dropdownHeaderText="Muokkaa sovelluksen näkymää" dropdownAction="localPartials/record/view" }}
+
+</div>

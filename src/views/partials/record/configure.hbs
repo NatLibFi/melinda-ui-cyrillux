@@ -1,0 +1,45 @@
+<!-- [Cyrillux: component for configuring record transliteration (configure.hbs)] -->
+
+
+<div class="standard-options"><form id="standard-options-form">
+
+  <div class="form-field-container checkbox">
+    <div class="label-wrapper">
+      <label for="iso9">
+        <div class="input-wrapper">
+          <input id="iso9" name="iso9" type="checkbox" checked="true">
+          <span class="material-symbols-outlined"></span>
+        </div>
+        <span class="standard-name">Käytä ISO 9 -standardia:</span>
+        tee translitteroinnissa kansainvälisen (tieteellisen) standardin mukaiset kentät
+      </label>
+    </div>
+  </div>
+
+  <div class="form-field-container checkbox">
+    <div class="label-wrapper">
+      <label for="sfs4900">
+        <div class="input-wrapper">
+          <input id="sfs4900" name="sfs4900" type="checkbox" checked="true">
+          <span class="material-symbols-outlined"></span>
+        </div>
+        <span class="standard-name">Käytä SFS 4900 -standardia:</span>
+        tee translitteroinnissa kansallisen (suomalaisen) standardin mukaiset kentät
+      </label>
+    </div>
+  </div>
+
+  <div class="form-field-container checkbox">
+    <div class="label-wrapper">
+      <label for="preferSFS4900">
+        <div class="input-wrapper">
+          <input id="preferSFS4900" name="preferSFS4900" type="checkbox"{{#ifEquals userid "__GENERAL_LIBRARY_REGEXP__"}} checked="true"{{/ifEquals}}>
+          <span class="material-symbols-outlined"></span>
+        </div>
+        <span class="standard-name">Preferoi SFS 4900 -standardia,</span>
+        jos molemmat standardit on valittu
+      </label>
+    </div>
+  </div>
+
+</form></div>

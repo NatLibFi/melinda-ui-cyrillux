@@ -1,0 +1,35 @@
+<!-- [Cyrillux: container for one panel (panel.hbs)] -->
+{{!-- Template context has three variables: panel id (string), panel tabs (array) and panel contents (array) --}}
+{{!-- Panel tabs contains details of every tab (as object): a tab has string variables for tab id, additional class and header text --}}
+{{!-- If a tab does not contain header text, a filler tab is rendered instead --}}
+{{!-- Panel contents contains details of every content (as object) to be rendered: a content is partial --}}
+
+<div id={{panelId}} class="panel-container">
+
+  {{#if panelTabs}}
+    <div class="panel-action-wrapper">
+      {{#panelTabs}}
+
+        {{#if tabHeaderText}}
+          <div id={{tabId}} class="panel-tab {{tabAdditionalClass}}">{{tabHeaderText}}</div>
+        {{else}}
+          <div class="panel-tab filler-tab"></div>
+        {{/if}}
+
+      {{/panelTabs}}
+    </div>
+  {{/if}}
+
+  <div class="panel-main-wrapper">
+
+    <div class="panel-header">{{panelHeaderText}}</div>
+
+    <div class="panel-content">
+      {{#panelContents}}
+        {{> (lookup . "content") }}
+      {{/panelContents}}
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,63 @@
+{
+  "_validationOptions": {},
+  "leader": "12345cam  22123454i 4500",
+  "fields": [
+    { "tag": "008", "value": "01234567890123456789012345678901234ukr89"},
+    { "tag": "041", "ind1": " ", "ind2": " ", "subfields": [ { "code": "a", "value": "ukr"} ]},
+
+    { "tag": "336", "ind1": " ", "ind2": " ", "subfields": [
+      { "code": "a", "value": "teksti" },
+      { "code": "b", "value": "txt" },
+      { "code": "2", "value": "rdacontent"}
+    ]},
+    { "tag": "337", "ind1": " ", "ind2": " ", "subfields": [
+      { "code": "a", "value": "määrittelemätön" },
+      { "code": "b", "value": "z" },
+      { "code": "2", "value": "rdamedia"}
+    ]},
+    { "tag": "338", "ind1": " ", "ind2": " ", "subfields": [
+      { "code": "a", "value": "määrittelemätön" },
+      { "code": "b", "value": "zu" },
+      { "code": "2", "value": "rdacarrier"}
+    ]},
+
+    { "tag": "700", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "880-01" },
+      { "code": "a", "value": "Godunov, K. V.," },
+      { "code": "e", "value": "toimittaja."},
+      { "code": "9", "value": "ISO9 <TRANS>" }
+    ]},
+    { "tag": "700", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "880-02" },
+      { "code": "a", "value": "Šumilova, T. È.," },
+      { "code": "e", "value": "toimittaja."},
+      { "code": "9", "value": "ISO9 <TRANS>" }
+    ]},
+
+    { "tag": "880", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "700-01" },
+      { "code": "a", "value": "Годунов, К. В.," },
+      { "code": "e", "value": "toimittaja."},
+      { "code": "9", "value": "CYRILLIC <TRANS>" }
+    ]},
+    { "tag": "880", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "700-01" },
+      { "code": "a", "value": "Hodunov, K. V.," },
+      { "code": "e", "value": "toimittaja."},
+      { "code": "9", "value": "SFS4900 <TRANS>" }
+    ]},
+    { "tag": "880", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "700-02" },
+      { "code": "a", "value": "Шумилова, Т. Э.," },
+      { "code": "e", "value": "toimittaja."},
+      { "code": "9", "value": "CYRILLIC <TRANS>" }
+    ]},
+    { "tag": "880", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "700-02" },
+      { "code": "a", "value": "Šumylova, T. E.," },
+      { "code": "e", "value": "toimittaja."},
+      { "code": "9", "value": "SFS4900 <TRANS>" }
+    ]}
+  ]
+}
+

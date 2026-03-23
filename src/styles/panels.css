@@ -1,0 +1,105 @@
+.panels {
+
+  .panel-container {
+    width: 100%;
+
+    &.edit-mode {
+
+      .panel-main-wrapper {
+
+        .panel-content {
+          outline-color: var(--color-blue-100);
+          outline-style: solid;
+          outline-width: 2px;
+          outline-offset: 1px;
+          border-radius: 6px;
+
+          .record-preview {
+
+            .marc-record {
+
+              .row {
+
+                &:hover {
+                  cursor: pointer;
+                  background-color: var(--color-blue-20);
+                  border-style: solid;
+                  border-radius: 6px;
+                }
+
+                &:active {
+                  border-color: transparent;
+                  outline-color: var(--color-blue-100);
+                  outline-style: solid;
+                  outline-width: 2px;
+                  outline-offset: 1px;
+                  border-radius: 6px;
+                }
+
+                span {
+                  pointer-events: none;
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .record-save {
+
+      dialog {
+        max-width: 75%;
+
+        .dialog-supporting-text {
+
+          .accordion {
+            width: 1000px;
+
+            .accordion-heading {
+              color: var(--color-primary-blue);
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .record-list {
+
+      .panel-main-wrapper {
+
+        .panel-content {
+
+          .record-list {
+
+            .tag-container {
+
+              .tag-wrapper.selected {
+                color: var(--color-blue-100);
+                background-color: var(--color-blue-100);
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+}

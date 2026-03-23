@@ -1,0 +1,70 @@
+{
+  "fields": [
+    { "tag": "005", "value": "20220202020202.0" },
+    { "tag": "100", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "880-01" },
+      { "code": "a", "value": "Jang, Gangmyeong," },
+      { "code": "d", "value": "1975-" }
+    ]},
+    { "tag": "336", "ind1": " ", "ind2": " ", "subfields": [
+      { "code": "a", "value": "määrittelemätön" },
+      { "code": "b", "value": "zzz" },
+      { "code": "2", "value": "rdacontent" }
+    ]},
+    { "tag": "337", "ind1": " ", "ind2": " ", "subfields": [
+      { "code": "a", "value": "käytettävissä ilman laitetta" },
+      { "code": "b", "value": "n" },
+      { "code": "2", "value": "rdamedia" }
+    ]},
+    { "tag": "338", "ind1": " ", "ind2": " ", "subfields": [
+      { "code": "a", "value": "nide" },
+      { "code": "b", "value": "nc" },
+      { "code": "2", "value": "rdacarrier" }
+    ]},
+    { "tag": "700", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "880-02" },
+      { "code": "a", "value": "Bianki, Vitalij," },
+      { "code": "e", "value": "kirjoittaja." },
+      { "code": "9", "value": "ISO9 <TRANS>" }
+    ]},
+    { "tag": "700", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "880-03" },
+      { "code": "a", "value": "B., Vitalij," },
+      { "code": "d", "value": "1980-" },
+      { "code": "9", "value": "ISO9 <TRANS>" }
+    ]},
+    { "tag": "880", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "100-01/$1" },
+      { "code": "a", "value": "장강명," },
+      { "code": "d", "value": "1975-" }
+    ]},
+    { "tag": "880", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "700-02" },
+      { "code": "a", "value": "Бианки, Виталий," },
+      { "code": "e", "value": "kirjoittaja." },
+      { "code": "9", "value": "CYRILLIC <TRANS>" }
+    ]},
+
+    { "tag": "880", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "700-02" },
+      { "code": "a", "value": "Bianki, Vitali," },
+      { "code": "e", "value": "kirjoittaja." },
+      { "code": "9", "value": "SFS4900 <TRANS>" }
+    ]},
+    { "tag": "880", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "700-03" },
+      { "code": "a", "value": "Б., Виталий," },
+      { "code": "d", "value": "1980-" },
+      { "code": "9", "value": "CYRILLIC <TRANS>" }
+    ]},
+
+    { "tag": "880", "ind1": "1", "ind2": " ", "subfields": [
+      { "code": "6", "value": "700-03" },
+      { "code": "a", "value": "B., Vitali," },
+      { "code": "d", "value": "1980-" },
+      { "code": "9", "value": "SFS4900 <TRANS>" }
+    ]}
+  ],
+  "leader": "",
+  "_validationOptions": {}
+}
