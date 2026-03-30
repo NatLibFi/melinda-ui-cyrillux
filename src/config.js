@@ -34,4 +34,4 @@ export const authJwtOptions = {
 
 
 // Hard-coded is for browser:
-export const version = process.env.npm_package_version || '2.0.7';
+export const version = process.env.npm_package_version || '2.0.8';
